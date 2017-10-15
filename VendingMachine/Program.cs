@@ -32,7 +32,7 @@ namespace VendingMachine
             Console.WriteLine("Code | Item     | Amount\n   A - Coke       $3.00\n   B - Gatorade   $4.00\n   C - Red Bull   $6.00\n   D - Ginger Ale $5.00");
             Console.WriteLine("***********************\n");
 
-            Console.WriteLine("Enter Code: ");
+            Console.Write("Enter Code: ");
             codeEntry = Console.ReadLine();
 
             while (codeEntry != coke &&
@@ -41,11 +41,11 @@ namespace VendingMachine
                     codeEntry != gingerAle)
             {
                 Console.WriteLine("Invalid entry!");
-                Console.WriteLine("Enter Code: ");
+                Console.Write("Enter Code: ");
                 codeEntry = Console.ReadLine();
             }
 
-            Console.Write("Enter money: $");
+            Console.Write("Enter money: $ ");
             try
             {
                 money = Convert.ToDouble(Console.ReadLine());
@@ -56,8 +56,8 @@ namespace VendingMachine
                         {
                             Console.WriteLine("Money is not enough");
 
-                            Console.Write("Enter money: $");
-                            money = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Enter money: $ ");
+                            money = Convert.ToDouble(Console.ReadLine());
                         }
                         Console.WriteLine("\n\n***********************");
                         Console.WriteLine("**** Order Summary ****");
@@ -70,6 +70,8 @@ namespace VendingMachine
                         Console.WriteLine("* Subtotal: $" + total);
                         Console.WriteLine("* Change: $" + change);
                         Console.WriteLine("***********************");
+                        Console.WriteLine("***********************\n\n");
+                        Console.WriteLine("***********************");
                         Console.WriteLine("     Thank you! \n  Enjoy your drinks!");
                         Console.WriteLine("***********************\n");
                         break;
@@ -79,8 +81,8 @@ namespace VendingMachine
                         {
                             Console.WriteLine("Money is not enough");
 
-                            Console.Write("Enter money: $");
-                            money = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Enter money: $ ");
+                            money = Convert.ToDouble(Console.ReadLine());
                         }
                         Console.WriteLine("\n\n***********************");
                         Console.WriteLine("**** Order Summary ****");
@@ -93,6 +95,8 @@ namespace VendingMachine
                         Console.WriteLine("* Subtotal: $" + total);
                         Console.WriteLine("* Change: $" + change);
                         Console.WriteLine("***********************");
+                        Console.WriteLine("***********************\n\n");
+                        Console.WriteLine("***********************");
                         Console.WriteLine("     Thank you! \n  Enjoy your drinks!");
                         Console.WriteLine("***********************\n");
                         break;
@@ -101,8 +105,8 @@ namespace VendingMachine
                         {
                             Console.WriteLine("Money is not enough");
 
-                            Console.Write("Enter money: $");
-                            money = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Enter money: $ ");
+                            money = Convert.ToDouble(Console.ReadLine());
                         }
                         Console.WriteLine("\n\n***********************");
                         Console.WriteLine("**** Order Summary ****");
@@ -115,6 +119,8 @@ namespace VendingMachine
                         Console.WriteLine("* Subtotal: $" + total);
                         Console.WriteLine("* Change: $" + change);
                         Console.WriteLine("***********************");
+                        Console.WriteLine("***********************\n\n");
+                        Console.WriteLine("***********************");
                         Console.WriteLine("     Thank you! \n  Enjoy your drinks!");
                         Console.WriteLine("***********************\n");
                         break;
@@ -123,8 +129,8 @@ namespace VendingMachine
                         {
                             Console.WriteLine("Money is not enough");
 
-                            Console.Write("Enter money: $");
-                            money = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Enter money: $ ");
+                            money = Convert.ToDouble(Console.ReadLine());
                         }
                         Console.WriteLine("\n\n***********************");
                         Console.WriteLine("**** Order Summary ****");
@@ -136,6 +142,8 @@ namespace VendingMachine
                         Console.WriteLine("-----------------------");
                         Console.WriteLine("* Subtotal: $" + total);
                         Console.WriteLine("* Change: $" + change);
+                        Console.WriteLine("***********************");
+                        Console.WriteLine("***********************\n\n");
                         Console.WriteLine("***********************");
                         Console.WriteLine("     Thank you! \n  Enjoy your drinks!");
                         Console.WriteLine("***********************\n");
