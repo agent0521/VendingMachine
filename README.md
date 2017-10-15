@@ -1,5 +1,6 @@
 # Console Vending Machine
-**Version 1.0**  
+**Version 1.0**    
+
 A simple vending machine program built from Visual Studio 2015 using C# programming language.
 
 ## How it works?
