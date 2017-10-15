@@ -142,7 +142,7 @@ namespace VendingMachine
                         break;
 
                     default:
-                        Console.WriteLine("Error occured. \nPlease contact the Admin!");
+                        Console.WriteLine("Error occured. \nProgram restarting!!!");
                         break;
                 }
 
