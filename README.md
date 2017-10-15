@@ -1,5 +1,5 @@
 # Console Vending Machine
-
+**Version 1.0**  
 A simple vending machine program built from Visual Studio 2015 using C# programming language.
 
 ## How it works?
@@ -14,5 +14,13 @@ A simple vending machine program built from Visual Studio 2015 using C# programm
 * If the money entered is greater than the amount of the chosen item, the program will then print an order summary. The program will be terminated:  
 ![pic5_summary](https://user-images.githubusercontent.com/24326950/31590564-691788dc-b1cf-11e7-9d55-292ac2569d6e.JPG)  
 
+## Coverage
+
+This program covered the following:
+* constant variables
+* integer, string and double variables
+* while loop
+* switch statements
+* try-catch block
 
 
