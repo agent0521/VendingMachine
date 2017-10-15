@@ -21,7 +21,7 @@ namespace VendingMachine
             const String gatorade = "B";
             const String redBull = "C";
             const String gingerAle = "D";
-            int money;
+            double money;
             double total;
             double change;
 
@@ -48,7 +48,7 @@ namespace VendingMachine
             Console.Write("Enter money: $");
             try
             {
-                money = Convert.ToInt32(Console.ReadLine());
+                money = Convert.ToDouble(Console.ReadLine());
                 switch (codeEntry)
                 {
                     case coke:
